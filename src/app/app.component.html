@@ -1,1 +1,24 @@
-<router-outlet />
+<mat-drawer-container class="example-container h-full">
+  <mat-drawer mode="side" opened class="py-4 px-2">
+    <div class="flex flex-col gap-8">
+      <img
+        src="../assets/svg/digsFactLogo.png"
+        class="w-16"
+        alt="digsFactLogo"
+      />
+      <div
+        class="flex flex-col justify-center items-center gap-1 bg-blue-50 p-2 rounded-lg"
+      >
+        <mat-icon>library_books</mat-icon>
+        <span class="font-medium">Cases</span>
+      </div>
+      <div
+        class="flex flex-col justify-center items-center gap-2 p-2 rounded-lg"
+      >
+        <img src="../assets/svg/magic.svg" class="w-5" alt="magic" />
+        <span class="font-medium">DF AI</span>
+      </div>
+    </div>
+  </mat-drawer>
+  <mat-drawer-content><router-outlet /></mat-drawer-content>
+</mat-drawer-container>

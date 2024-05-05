@@ -17,6 +17,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { NotesDialogComponent } from './components/notes-dialog/notes-dialog.component';
+import { MatSidenavModule } from '@angular/material/sidenav';
 
 @NgModule({
   imports: [
@@ -32,6 +33,7 @@ import { NotesDialogComponent } from './components/notes-dialog/notes-dialog.com
     MatInputModule,
     MatSelectModule,
     MatFormFieldModule,
+    MatSidenavModule,
   ],
   declarations: [
     AppComponent,
