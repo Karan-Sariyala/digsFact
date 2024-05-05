@@ -1,0 +1,40 @@
+.casesSection {
+  .searchBar {
+    .mat-mdc-text-field-wrapper {
+      background-color: transparent !important;
+      padding: 0;
+      &:hover {
+        background-color: transparent !important;
+      }
+      .mat-mdc-form-field-focus-overlay {
+        background-color: transparent;
+      }
+      .mdc-line-ripple {
+        display: none;
+      }
+      .mat-mdc-form-field-infix {
+        padding: 0;
+        min-height: auto;
+        width: 100px;
+      }
+      .mat-mdc-form-field-flex {
+        align-items: center;
+      }
+    }
+  }
+  .mat-mdc-form-field-subscript-wrapper {
+    display: none;
+  }
+  .casesTable {
+    border: 1px solid rgb(243 244 246 / 1);
+    .mat-mdc-header-row {
+      background-color: rgb(243 244 246 / 1);
+      height: 38px;
+    }
+    .mdc-data-table__content{
+      .mat-mdc-row{
+        height: 60px;
+      }
+    }
+  }
+}

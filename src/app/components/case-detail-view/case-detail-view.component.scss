@@ -1,0 +1,32 @@
+.mat-mdc-text-field-wrapper {
+  background-color: transparent !important;
+  padding: 0 !important;
+  &:hover {
+    background-color: transparent !important;
+  }
+  .mat-mdc-form-field-focus-overlay {
+    background-color: transparent;
+  }
+  .mdc-line-ripple {
+    display: none;
+  }
+  .mat-mdc-form-field-infix {
+    padding: 0 !important;
+    min-height: auto;
+    width: 65px !important;
+  }
+  .mat-mdc-form-field-flex {
+    align-items: center;
+  }
+}
+
+.mat-mdc-form-field-subscript-wrapper {
+  display: none;
+}
+
+.measureBtn,.extendBtn {
+  .mdc-button__label {
+    display: flex;
+    align-items: center;
+  }
+}
